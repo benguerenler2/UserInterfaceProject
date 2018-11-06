@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Up She Rises</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.payform.min.js" charset="utf-8"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/translation.js"></script>
+    <script src="../js/undoredo.js"></script>
+  
+    <link rel="stylesheet" href="../css/pagestyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/payment.css">
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <div class="headerlinks">
+            <ul>
+                <li class="buttonlink">
+                    <a href="#" onclick="goback()">
+                        <p class="translate_back"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="goforward()">
+                        <p class="translate_forward"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="../html/home.html" onclick="changelocation()">
+                        <p class="translate_home"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="login.html" onclick="changelocation()">
+                        <p class="translate_vip"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="changeLanguage('se')">
+                        <p class="translate_se"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="changeLanguage('en')">
+                        <p class="translate_en"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="headertitle">
+            <p class="translate_title"></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="creditCardForm">
+                <div class="heading">
+                    <h1>Confirm Purchase</h1>
+                </div>
+                <div class="payment">
+                    <form>
+                        <div class="form-group owner">
+                            <label for="owner">Owner</label>
+                            <input type="text" class="form-control" id="owner">
+                        </div>
+                        <div class="form-group CVV">
+                            <label for="cvv">CVV</label>
+                            <input type="text" class="form-control" id="cvv">
+                        </div>
+                        <div class="form-group" id="card-number-field">
+                            <label for="cardNumber">Card Number</label>
+                            <input type="text" class="form-control" id="cardNumber">
+                        </div>
+                        <div class="form-group" id="expiration-date">
+                            <label>Expiration Date</label>
+                            <select>
+                                <option value="01">January</option>
+                                <option value="02">February</option>
+                                <option value="03">March</option>
+                                <option value="04">April</option>
+                                <option value="05">May</option>
+                                <option value="06">June</option>
+                                <option value="07">July</option>
+                                <option value="08">August</option>
+                                <option value="09">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>
+                            <select>
+                                <option value="16"> 2016</option>
+                                <option value="17"> 2017</option>
+                                <option value="18"> 2018</option>
+                                <option value="19"> 2019</option>
+                                <option value="20"> 2020</option>
+                                <option value="21"> 2021</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="credit_cards">
+                            <img id="visa" src="../resources/visa.jpg">
+                            <img id="mastercard" src="../resources/mastercard.jpg">
+                            <img id="amex" src="../resources/amex.jpg">
+                        </div>
+                        <div class="form-group" id="pay-now">
+                            <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="translate_footer"></p>
+    </div>
+</div>
+</body>
+</html>

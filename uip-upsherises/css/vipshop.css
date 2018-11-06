@@ -1,0 +1,26 @@
+.basket {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.basket ul, li{
+    list-style: none;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+}
+
+.beverages {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.leftcontent {
+    flex-basis: 30%;
+    margin: 0 20px;
+}

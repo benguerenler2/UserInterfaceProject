@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/pagestyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/bestsellers.css">
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/translation.js"></script>
+    <script src="../js/database_api.js"></script>
+    <script src="../js/undoredo.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <div class="headerlinks">
+            <ul>
+                <li class="buttonlink">
+                    <a href="#" onclick="goback()">
+                        <p class="translate_back"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="goforward()">
+                        <p class="translate_forward"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="home.html" onclick="changelocation()">
+                        <p class="translate_home"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="login.html" onclick="changelocation()">
+                        <p class="translate_vip"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="changeLanguage('se')">
+                        <p class="translate_se"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="changeLanguage('en')">
+                        <p class="translate_en"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="headertitle">
+            <p class="translate_title"></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_header">
+            <p class="translate_ourbest"></p>
+        </div>
+        <div id="grid" class="grid-container">
+
+        </div>
+    </div>
+    <div class="footer">
+        <p class="translate_footer"></p>
+    </div>
+</div>
+</body>
+</html>

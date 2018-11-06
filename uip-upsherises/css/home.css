@@ -1,0 +1,28 @@
+@media screen and (min-width: 1920px) {
+    .rightcontent_button p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+    .rightcontent_button p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+    .rightcontent_button p {
+        font-size: 0.8em;
+    }
+}
+
+.leftcontent {
+    flex-basis: 60%;
+}
+
+.rightcontent {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

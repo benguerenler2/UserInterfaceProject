@@ -1,0 +1,72 @@
+{
+  "example": {
+    "se": "Exempel", "en": "Example"
+  },
+  "basket": {
+    "se": "Varukorg", "en": "Basket"
+  },
+  "item": {
+    "se": "Vara", "en": "Item"
+  },
+  "view": {
+    "se": "Vy", "en": "View"
+  },
+  "hometext": {
+    "se": "Svensk text.", "en": "English text."
+  },
+  "fooddrinks": {
+    "se": "Mat & Dryck", "en": "Food & Drinks"
+  },
+  "bestseller": {
+    "se": "Bästsäljare", "en": "Bestsellers"
+  },
+  "footer": {
+    "se": "Öppettider: Måndag - Torsdag: 16 - 00 | Fredag - Lördag: 16 - 02 | Söndag: Stängt",
+    "en": "Opening hours: Monday - Thursday: 16 - 00 | Friday - Saturday: 16 - 02 | Sunday: Closed"
+  },
+  "ourbest": {
+    "se": "Våra Bästsäljare", "en": "Our Bestsellers"
+  },
+  "browseall": {
+    "se": "Visa allt", "en": "Browse all"
+  },
+  "title": {
+    "se": "Up She Rises", "en": "Up She Rises"
+  },
+  "se": {
+    "se": "Svenska", "en": "Swedish"
+  },
+  "en": {
+    "se": "Engelska", "en": "English"
+  },
+  "home": {
+    "se": "Hem", "en": "Home"
+  },
+  "vip": {
+    "se": "Vip", "en": "Vip"
+  },
+  "vipuser": {
+    "se": "Fyll i Vip Användarnamn", "en": "Enter Vip Username"
+  },
+  "vippass": {
+    "se": "Fyll i Vip Lösenord", "en": "Enter Vip Password"
+  },
+  "checkout": {
+    "se": "Till betalning", "en": "Checkout"
+  },
+  "paynow": {
+    "se": "Betala nu", "en": "Pay now"
+  },
+  "login": {
+    "se": "Logga in", "en": "Login"
+  },
+  "viplogin": {
+    "se": "Vip Inloggning", "en": "Vip Login"
+  },
+  "back": {
+    "se": "Tillbaka", "en": "Back"
+  },
+  "forward": {
+    "se": "Framåt", "en": "Forward"
+  }
+}

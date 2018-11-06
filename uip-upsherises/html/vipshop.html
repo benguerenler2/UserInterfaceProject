@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Up She Rises</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/pagestyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/vipshop.css">
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/translation.js"></script>
+    <script src="../js/basketVip.js"></script>
+    <script src="../js/database_api2.js"></script>
+    <script src="../js/undoredo.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <div class="headerlinks">
+            <ul>
+                <li class="buttonlink">
+                    <a href="#" onclick="goback()">
+                        <p class="translate_back"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="goforward()">
+                        <p class="translate_forward"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="home.html" onclick="changelocation()">
+                        <p class="translate_home"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="login.html" onclick="changelocation()">
+                        <p class="translate_vip"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="changeLanguage('se')">
+                        <p class="translate_se"></p>
+                    </a>
+                </li>
+                <li class="buttonlink">
+                    <a href="#" onclick="changeLanguage('en')">
+                        <p class="translate_en"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="headertitle">
+            <p class="translate_title"></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="leftcontent">
+            <div class="basket">
+                <section id="cart" class="shopping-cart">
+                    <p class="translate_basket"></p>
+                    <ul>
+                    </ul>
+                    <span class="total">0.00</span>
+                </section>
+            </div>
+            <div class="content_button">
+                <a href="checkoutview.html" onclick="changelocation()">
+                    <p class="translate_checkout">Checkout</p>
+                </a>
+            </div>
+        </div>
+        <div class="beverages">
+            <section id="products" class="products">
+                <div id="grid" class="grid-container">
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="translate_footer"></p>
+    </div>
+</div>
+</body>
+</html>
